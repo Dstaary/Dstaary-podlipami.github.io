@@ -127,6 +127,11 @@ img {
   border-left: 1px solid black;
 }
 
+.show_menu {
+  visibility: visible im !important;
+  display: inline-block !important;
+}
+
 @media screen and (max-width: 1050px) {
   .menu-items li a {
     margin: 10px 0;
@@ -145,7 +150,7 @@ img {
   }
 
   .menu-items {
-    visibility: hidden;
+    padding: 70px 30px;
     display: none;
   }
 }
